@@ -1,8 +1,9 @@
 /* Active Admin CSS */
 // Reset Away!
-body.active_admin {
+// Removed the scoping as it kills pretty much any third party plugin.
+//body.active_admin {
   @include global-reset;
-}
+//}
 
 // Partials
 body.active_admin {
